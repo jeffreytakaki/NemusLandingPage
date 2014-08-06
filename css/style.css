@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../font/OpenSans-Light-webfont.eot');
+    src: url('../font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/OpenSans-Light-webfont.woff') format('woff'),
+         url('../font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../font/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'TeXGyreAdventorBold';
+    src: url('../font/texgyreadventor-bold-webfont.eot');
+    src: url('../font/texgyreadventor-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/texgyreadventor-bold-webfont.woff') format('woff'),
+         url('../font/texgyreadventor-bold-webfont.ttf') format('truetype'),
+         url('../font/texgyreadventor-bold-webfont.svg#TeXGyreAdventorBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ItaliannoRegular';
+    src: url('../font/Italianno-Regular-OTF-webfont.eot');
+    src: url('../font/Italianno-Regular-OTF-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Italianno-Regular-OTF-webfont.woff') format('woff'),
+         url('../font/Italianno-Regular-OTF-webfont.ttf') format('truetype'),
+         url('../font/Italianno-Regular-OTF-webfont.svg#ItaliannoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a{color:#666;text-decoration:underline;transition:0.3s;}
+a:hover{text-decoration:underline;}
+body{background:#fff;font-family: 'OpenSansLight';color:#222;line-height:2;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+.elegant{font-family: 'OpenSansLight';color:black;font-size:40px;color:#aaa;position:relative;display:inline-block;background:#fff;margin:auto;padding:0 20px;}
+.center{text-align:center;}
+.line{height:1px;width:100%;border-top:3px double #ccc;margin:-24px auto 20px;}
+.inner-page{padding:40px 0;}
+/*inner-content is div for countdown. display: none to remove*/
+.inner-content{padding:40px 0}
+[class^="icon-"]:before, [class*=" icon-"]:before{text-decoration:none;}
+.title{margin:20px 0;}
+
+
+
+/*----------------------------home section----------------------------*/
+.menu{background:#fff;border-top: 3px solid #333;}
+.menu-inner{width:90%;margin:auto;padding:20px 0;}
+.logo{float: left;
+height: 60px;
+width: 200px;
+margin-top: -10px;
+}
+.companyName{font-size: 20px;width:30%; height:0px;font-family: 'OpenSansLight';color:lightblue;}
+.menu ul{float:right;list-style:none;margin:0;}
+
+.menu li {
+    border-left: 1px solid #CCCCCC;
+    display: inline-block;
+    margin-left: 40px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.menu p {
+    font-family: 'TeXGyreAdventorBold';
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+.menu span{display:block;letter-spacing:normal;font-family: 'OpenSansLight';color:#999;}
+.menu i{position:absolute;left:0;line-height:40px;font-size:20px;width:40px;}
+.motto{text-align:center;padding:200px 0;}
+.motto h2 {
+    color: white;
+    font-weight: bold;
+    margin: 20px auto;
+    text-transform: uppercase;
+    width: 500px;
+	font-size: 40px;
+	line-height: 40px;
+}
+.motto-top{letter-spacing: 14px;text-shadow:1px 1px 1px rgba(0,0,0,0.6);}
+.motto-bottom{letter-spacing:8px;text-shadow:1px 1px 1px rgba(0,0,0,0.6);}
+.motto-bold {
+    display: block;
+    font-family: texgyreadventorbold;
+    font-size: 80px;
+    height: 80px;
+    letter-spacing: 20px;
+    line-height: 66px;
+    margin: 10px 0;
+}
+.motto-line{max-width:100px;height:1px;border-top:3px double #fff;margin:auto}
+
+/*------------------------------content section------------------------------*/
+#content{background:#fff; margin: 0 auto;}
+
+/*#clock ul{margin:0;list-style:none;}
+#clock li {
+    display: inline-block;
+    height: 60px;
+    margin: 20px;
+	font-size:12px;
+	color:#999;
+    width: 60px;
+	position:relative;
+}
+#clock li span {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+	font-family: 'TeXGyreAdventorBold';
+	margin-bottom:10px;
+	color:#222;
+}*/
+.circle:before{content:"";width:10px;height:10px;border-radius:50px;background:#ddd;position:absolute;left:-30px;top:30px;}
+.bold{font-family:'TeXGyreAdventorBold';letter-spacing:5px;text-transform:uppercase;}
+#tweets{text-align:center;margin:auto;padding:20px 0;}
+#tweets a{font-family: 'TeXGyreAdventorBold';}
+#tweets ul{list-style:url(../images/tweet.png);}
+#tweets li{margin-bottom:10px;}
+input,textarea{border:2px solid #222 !important;border-radius:0 !important;max-width:400px;width:70%;}
+input:active,input:focus,textarea:active,textarea:focus{box-shadow:none !important;border-color:#999 !important;}
+.black-btn {
+    border: 2px solid #222222;
+	background:#222;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    height: 28px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+	margin-bottom: 10px;
+}
+.subscribe-btn{margin-left: -5px;}
+fieldset {color: #333;}
+.black-btn:hover,.black-btn:focus{color:#222;background:#fff;text-decoration:none;}
+.detail{padding-top:20px;text-align:left;font-family: 'TeXGyreAdventorBold'; font-size: 15px;}
+.text{padding-bottom:20px;text-align:left;}
+
+/*modal section*/
+#MyContactForm p{width:100%;float:left;}
+#MyContactForm span{display:block;}
+#MyContactForm input,#MyContactForm textarea{max-width:500px;width:90%;}
+
+#contactlabel {
+    font-family: 'OpenSansLight';
+    color:black;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.error{font-style:italic;font-size:10px;color:red;line-height:10px;}
+.modal fieldset{color:#222;}
+.modal.fade.in {
+    border: 0 none;
+    border-radius: 0 0 0 0;
+}
+.modal-footer {
+    background-color: #222222;
+    border-radius: 0 0 0 0;
+    border-top: medium none;
+    box-shadow: 0 0 0 0;
+    margin-bottom: 0;
+    padding: 14px 15px 15px;
+    text-align: right;
+}
+
+.modal-header {
+    border-bottom: 1px solid #222222;
+}
+.modal p{margin-bottom:0;}
+.white-border{border-color:#fff;}
+::-webkit-input-placeholder { font-size:12px; }
+::-moz-placeholder { font-size:12px; } 
+:-ms-input-placeholder { font-size:12px; }
+input:-moz-placeholder { font-size:12px;}
+
+
+/*------------------------------footer section------------------------------*/
+#footer{background:#222;font-size:12px;}
+.footer{padding:20px 0;width:90%;}
+.social{list-style:none;margin:0;float:right;}
+.social li{display:inline-block;margin:0 10px;}
+.footer a{text-decoration:none;}
+.social li i{font-size:14px;}
+.copyright{float:left;}
+.copyright p{color:#999;margin:0;}
+.foot{display:none;}
+
+/*-----------------------------media queries-----------------------------------*/
+
+
+@media (max-width: 1012px) {
+.logo{width: 280px;}
+li#address{display:block}
+}
+@media (max-width: 767px) {
+		.menu,#footer,#content,.motto{
+	    margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		}
+		.navi{display:none;}
+		.logo{float: left;height: 60px;width: 200px;margin-top: -10px;}
+		.motto{padding:100px 0;}
+.foot{display:inline-block;color: white;}
+#footcontain{text-align: center;}
+.motto-bold {
+    font-size: 50px;
+    height: 50px;
+    line-height: 46px;
+	letter-spacing:10px;
+}
+.motto h2{font-size:20px;width:300px;}
+.motto-bottom {
+    letter-spacing: 3px;
+
+}
+.motto-top {
+    letter-spacing: 7px;
+}
+#clock li {
+    height: 40px;
+    margin: 10px;
+    width: 40px;
+}
+
+#clock li span {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 0;
+}
+.circle:before {
+    height: 5px;
+    left: -12.5px;
+    width: 5px;
+}
+}
+@media (max-width:480px){
+	.footer{text-align:center;}
+	.copyright,.social{float:none;}
+	.copyright{margin-bottom:10px;}
+	.elegant{font-size:35px;}
+	
+.bold {
+    font-size: 20px;
+    line-height: 20px;
+}
+}

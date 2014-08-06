@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+    <head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <title>Berdiri  Documentation</title>
+    <!-- Framework CSS -->
+    <link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+    <link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+    <!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+    <style type="text/css" media="screen">
+p, table, hr, .box {
+	margin-bottom: 25px;
+}
+.box p {
+	margin-bottom: 10px;
+}
+</style>
+    </head>
+
+    <body>
+    <div class="container">
+      <h3 class="center alt">&ldquo;<span class="center">Lalawora</span>&rdquo; Documentation </h3>
+      <hr>
+      <h1 class="center">&ldquo;Lalawora Coming Soon Page&rdquo;</h1>
+      <div class="borderTop">
+        <div class="span-6 colborder info prepend-1">
+          <p class="prepend-top"> <strong> Updated:16 June 2013<br>
+            By: ridianur</strong> </p>
+        </div>
+        <!-- end div .span-6 -->
+        
+        <div class="span-12 last">
+          <p class="prepend-top append-0">Thank you for purchasing my template. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/ridianur">here</a>. Thanks so much!</p>
+        </div>
+      </div>
+      <!-- end div .borderTop -->
+      
+      <hr>
+      <h2 id="toc" class="alt">Table of Contents</h2>
+      <ol class="alpha">
+        <li><a href="#htmlStructure">HTML Structure</a></li>
+        <li><a href="#cssFiles">CSS Files and Structure</a></li>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="#suggestion">Some Suggestion</a></li>
+        <li><a href="#credits">Sources and Credits</a></li>
+      </ol>
+      <hr>
+      <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+      <p>This coming soon page is a responsive layout. All of the  content area is divided within a &lt;section&gt; element.The sections are section with id <strong>home</strong>, section with id <strong>content</strong> and section with id <strong>footer</strong>.</p>
+      <p>Every file have many comments within HTML code explaining it’s role part by part. Additionally every part of the code is marked by &quot; &lt;!--name content start --&gt;&quot; and &quot;&lt;!--name content end  --&gt;&quot; or &lt;!--/.class or id content--&gt; comments, e.g:</p>
+      <p><img src="assets/images/sample.jpg" width="645" height="312" alt="sample"></p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <hr>
+      <h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+      <p>Im using many css files in this theme. Because some page need different styling.</p>
+      <p><u><strong>List of css and use:</strong></u> </p>
+      <p><strong>style.css </strong><span id="result_box" lang="en">This file is used to provide </span>default layout style</p>
+      <p><strong>font-awesome.css </strong>This file is used for icon.</p>
+      <p><strong>supersized.css and supersized.shutter.css </strong>This file is used to provide slider style.</p>
+      <p>and some files from bootstrap</p>
+      <p>Those  files contain all of the specific stylings for the page. This file is separated into sections using:</p>
+      <pre>	/* -- Header Section ---*/
+
+	some code
+
+/*-----Header Section end---/
+
+
+	/* ----Main Section ---*/
+	
+	some code
+
+/*-----Main Section end----*/	
+
+
+
+
+	/* ----Sidebar Section ---*/
+	
+	some code
+	
+	/* ---- Footer ---*/
+	
+	some code
+	
+	etc, etc. 
+</pre>
+      <p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+      <p>&nbsp;</p>
+      <hr>
+      <h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+      <p>This theme imports three type of Javascript files.</p>
+      <ol>
+        <li>jQuery</li>
+        <li>My custom scripts</li>
+        <li>Some plugin</li>
+      </ol>
+      <ol>
+        <li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+        <li>Most of the animation in this site is carried out from the customs scripts. There are a few functions worth looking over.
+          Some of script are trigger inside <strong>script.js</strong>
+          <pre>	//Script something start... //some explanation... </pre>
+        </li>
+        <li>Some plugin can be edit. It has some explanation inside it. For further edit this script you can visit the plugin page for more documentaion. Some of the plugin i use are :</li>
+      </ol>
+      <ul>
+        <li><a href="http://buildinternet.com/project/supersized//" target="_blank">Supersized</a></li>
+        <li>Jquery Countdown</li>
+        <li>contact.js and subscribe,js for ajax contact and subsribe</li>
+        <li><a href="http://twitter.github.com/bootstrap/">some bootstrap javascript</a></li>
+        <li>*the rest you can find in js folder</li>
+      </ul>
+      <hr>
+      <h3 id="suggestion"><strong>D) Some Suggestion </strong> - <a href="#toc">top</a> </h3>
+      <h3><strong>For Slider:</strong></h3>
+      <p>You can change the background image in script.js file. Its below the comment</p>
+      <pre>//slider setting</pre>
+      <h3><strong>For Modal Contact</strong></h3>
+      <p>Its started with comment :</p>
+      <p><strong>&lt;!-- MODAL START --&gt;</strong></p>
+      <p>Its based on modal by twitter bootstrap. For better explanation you can check <a href="http://twitter.github.com/bootstrap/javascript.html#modals">this page</a> </p>
+      <h3><strong>For Icon:</strong></h3>
+      <p>You can simply add any icon you want by putting this code<strong> &lt;i class=&quot;your-class-icon&quot;&gt;&lt;/i&gt;</strong></p>
+      <p>You can check <a href="http://gregoryloucas.github.com/Font-Awesome-More/" target="_blank">this page</a> for find the icon that you need. </p>
+      <h3><strong>For Shortcode</strong></h3>
+      <p>For further explaination visit <a href="http://twitter.github.com/bootstrap/" target="_blank">this page</a></p>
+      <p>&nbsp;</p>
+      <h3><strong>For Countdown</strong></h3>
+      <p>Open the script.js and find this comment:</p>
+      <pre>//countdown setting
+...
+$('div#clock').countdown(&quot;2014/06/28&quot;, function(event)  
+
+...</pre>
+      <p>Change it 2014/06/28 with your desire time</p>
+      <p>For further information visit <a href="https://github.com/hilios/jQuery.countdown">this page</a></p>
+      <h3><strong>For parralax effect</strong></h3>
+      <p>FInd this code in script.js</p>
+      <pre>//parallax setting  
+$('#supersized').scrollingParallax({
+staticSpeed : 1.18,
+staticScrollLimit : false
+});</pre>
+      <p>staticSpeed is the default speed for parallax scrolling effect. For further explanation you can check<a href="dev.jonraasch.com/scrolling-parallax/docs"> this page</a></p>
+      <h3><strong>For Contact and Subscribe Form</strong></h3>
+      <p><strong>Be sure your host is support php files.</strong></p>
+      <p>You can open contact.php,contact.js for setting contact section, and subscribe.php,subscribe.js for setting subscribe section.</p>
+      <p>Contact section can find in modal section in html files.</p>
+      <p><strong>There is comment in files for explanation.</strong> </p>
+      <h3><strong>For Twitter Feed</strong></h3>
+      <p>Remember, this plugin only work in host that support php, if you want see it locally use program like xampp/wampp.</p>
+      <p>First you need to go to the Developers website of Twitter.<br>
+        Go to <a href="https://dev.twitter.com/" target="_blank">https://dev.twitter.com/</a></p>
+      <p><img src="assets/images/devtwiiter.jpg" width="778" height="457"></p>
+      <p>Login with your Twitter account and go to My Applications.<br>
+        From there click on the &ldquo;Create a new application&rdquo; button.<br>
+        Fill the form with the information required.</p>
+      <p><img src="assets/images/twitterform.jpg" width="779" height="765"></p>
+      <p>Once you&rsquo;re done, you&rsquo;ll be presented with a page like this:</p>
+      <p><img src="assets/images/accesskey.jpg" width="752" height="730"></p>
+      <p>You&rsquo;ll need four Keys from that page.<br>
+        - Consumer Key<br>
+        - Consumer Secret<br>
+        - Access Token<br>
+        - Access Token Secret</p>
+      <p>Insert those information in index.php inside twitter folder its about line 23</p>
+      <p>class ezTweet {<br>
+        /*************************************** config ***************************************/</p>
+      <p> // Your Twitter App Consumer Key<br>
+        private $consumer_key = <strong>'YOUR_CONSUMER_KEY'</strong>;</p>
+      <p> // Your Twitter App Consumer Secret<br>
+        private $consumer_secret = <strong>'YOUR_CONSUMER_SECRET'</strong>;</p>
+      <p> // Your Twitter App Access Token<br>
+        private $user_token = <strong>'YOUR_ACCESS_TOKEN'</strong>;</p>
+      <p> // Your Twitter App Access Token Secret<br>
+        private $user_secret = <strong>'YOUR_ACCESS_TOKEN_SECRET'</strong>;</p>
+      <p>&nbsp;</p>
+      <p>then open script.js find this code</p>
+      <p>/script recent Tweets<br>
+        <br>
+        $('#tweets').tweet({<br>
+modpath: 'twitter/',<br>
+username: 'envato',<br>
+count: 4,<br>
+loading_text: &quot;loading tweets...&quot;<br>
+});<br>
+      </p>
+      <p>change envato to your twitter username</p>
+      <p>for further explanation for this you can <a href="https://github.com/StanScates/Tweet.js-Mod" target="_blank">check this page</a></p>
+      <hr>
+      <h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+      <p>I've used the following images, icons or other files as listed.
+      <ul>
+        <li>Image In Demo Page from <a href="http://stockfreeimages.com/" target="_blank"> Stock Free Images</a></li>
+        <li><a href="http://fortawesome.github.com/Font-Awesome/">Fontawesome</a></li>
+        <li><a href="http://dev.jonraasch.com/scrolling-parallax/">Scrolling Parralax</a></li>
+        <li>Font Open Sans</li>
+        <li>Font TeX Gyre Adventor Bold</li>
+        <li>Font Italianno</li>
+      </ul>
+      <hr>
+      <p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help you if you have any questions relating to this template. No guarantees, but I'll do my best to assist. If you have a more general question relating to the template on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+      <p class="append-bottom alt large"><strong>ridianur</strong></p>
+      <p><a href="#toc">Go To Table of Contents</a></p>
+      <hr class="space">
+    </div>
+    <!-- end div .container -->
+</body>
+</html>
