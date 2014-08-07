@@ -146,7 +146,7 @@ input:active,input:focus,textarea:active,textarea:focus{box-shadow:none !importa
 fieldset {color: #333;}
 .black-btn:hover,.black-btn:focus{color:#222;background:#fff;text-decoration:none;}
 .detail{padding-top:20px;text-align:left;font-family: 'TeXGyreAdventorBold'; font-size: 15px;}
-.text{padding-bottom:20px;text-align:left;}
+.text{padding-bottom:20px;text-align:center;}
 
 /*modal section*/
 #MyContactForm p{width:100%;float:left;}
