@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6{font-weight:normal;}
 .elegant{font-family: 'OpenSansLight';color:black;font-size:40px;color:#aaa;position:relative;display:inline-block;background:#fff;margin:auto;padding:0 20px;}
 .center{text-align:center;}
 .line{height:1px;width:100%;border-top:3px double #ccc;margin:-24px auto 20px;}
-.inner-page{padding:40px 0;}
+.inner-page{padding:0px 0;}
 /*inner-content is div for countdown. display: none to remove*/
 .inner-content{padding:40px 0}
 [class^="icon-"]:before, [class*=" icon-"]:before{text-decoration:none;}

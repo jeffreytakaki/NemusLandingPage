@@ -19,7 +19,7 @@ staticScrollLimit : false
 					slide_links				:	'false',	// Individual links for each slide (Options: false, 'num', 'name', 'blank')
 					slides 					:  	[			// Slideshow Images
 														
-														{image : 'images/shutterstockleaf.jpg' },
+														{image : 'images/nemusbiosblue.png' },
 														{image : 'images/ShutterStock - testtubes.jpg' },
 														// {image : 'images/slider3.jpg'},
 														// {image : 'images/slider4.jpg'}
