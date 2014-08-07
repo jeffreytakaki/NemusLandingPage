@@ -1,5 +1,5 @@
 <?php
-$toEmail 		= "john@nemusbio.com"; //Replace it recipient email address
+$toEmail 		= "john@nemusbioscience.com"; //Replace it recipient email address
 $subject 		= 'Web Inquiry'; //Subject line for emails
 
 //Let's clean harmful characters from raw POST data using PHP Sanitize filters.
@@ -14,7 +14,7 @@ if(strlen($postName)<1) // If length is less than 1 we will throw an HTTP error.
 	header('HTTP/1.1 500 Name Field Empty'); 
 	exit();
 }
-//similar validation applies to all data, unless you want to replace with some other strong validation.
+// similar validation applies to all data, unless you want to replace with some other strong validation.
 if(strlen($postEmail)<1)
 {
 	header('HTTP/1.1 500 Email Field Empty'); 
