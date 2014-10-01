@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6{font-weight:normal;}
 .logo{float: left;
 height: 60px;
 width: 200px;
-margin-top: -10px;
+margin-top: -8px;
 }
 .companyName{font-size: 20px;width:30%; height:0px;font-family: 'OpenSansLight';color:lightblue;}
 .menu ul{float:right;list-style:none;margin:0;}
